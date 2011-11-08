@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'XLInAppPurchase' target in the 'XLInAppPurchase' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
