@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E0191B714A074CC00197E62 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 2E0191B614A074CC00197E62 /* README */; };
 		2E1ECD5214699D60008F51EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1ECD5114699D60008F51EE /* Foundation.framework */; };
 		2E1ECD5814699D60008F51EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E1ECD5614699D60008F51EE /* InfoPlist.strings */; };
 		2E1ECD6314699D6F008F51EE /* SKProduct+LocalizedPrice.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E1ECD5F14699D6F008F51EE /* SKProduct+LocalizedPrice.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E0191B614A074CC00197E62 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = SOURCE_ROOT; };
 		2E1ECD4E14699D60008F51EE /* XLInAppPurchase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = XLInAppPurchase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E1ECD5114699D60008F51EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2E1ECD5514699D60008F51EE /* XLInAppPurchase-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XLInAppPurchase-Info.plist"; sourceTree = "<group>"; };
@@ -45,6 +47,7 @@
 		2E1ECD4014699D60008F51EE = {
 			isa = PBXGroup;
 			children = (
+				2E0191B614A074CC00197E62 /* README */,
 				2E1ECD5314699D60008F51EE /* XLInAppPurchase */,
 				2E1ECD5014699D60008F51EE /* Frameworks */,
 				2E1ECD4F14699D60008F51EE /* Products */,
@@ -157,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E1ECD5814699D60008F51EE /* InfoPlist.strings in Resources */,
+				2E0191B714A074CC00197E62 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

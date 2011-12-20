@@ -1,0 +1,12 @@
+  XLInAppPurchase
+  
+  Created by Richard Wei on 11-11-21.
+  Copyright (c) 2011 Xinranmsn Labs. All rights reserved.
+  
+It's an encapsulation of  In-App Purchase (StoreKit) APIs.
+
+To use this in your project, just build this and add XLInAppPurchase.framework to your project.
+
+There's 2 ways to implement XLInAppPurchase manager:
+1. Initialize XLInAppPurchaseManager with -initWithProductIdentifier:delegate:loadStore:enableNotifications:. Start purchase by calling -makePurchase;
+2. Initialize XLInAppPurchaseManager with -initWithProductIdentifier:. Then call -loadStore to load store. Start purchase by calling -makePurchase;
