@@ -9,14 +9,24 @@
 /* Begin PBXBuildFile section */
 		2E1ECD5214699D60008F51EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1ECD5114699D60008F51EE /* Foundation.framework */; };
 		2E1ECD5814699D60008F51EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E1ECD5614699D60008F51EE /* InfoPlist.strings */; };
+		2E1ECD6314699D6F008F51EE /* SKProduct+LocalizedPrice.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E1ECD5F14699D6F008F51EE /* SKProduct+LocalizedPrice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E1ECD6414699D6F008F51EE /* SKProduct+LocalizedPrice.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1ECD6014699D6F008F51EE /* SKProduct+LocalizedPrice.m */; };
+		2E1ECD6514699D6F008F51EE /* XLInAppPurchaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E1ECD6114699D6F008F51EE /* XLInAppPurchaseManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E1ECD6614699D6F008F51EE /* XLInAppPurchaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1ECD6214699D6F008F51EE /* XLInAppPurchaseManager.m */; };
+		2E1ECD6814699DAE008F51EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1ECD6714699DAE008F51EE /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2E1ECD4E14699D60008F51EE /* XLInAppPurchase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = XLInAppPurchase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E1ECD5114699D60008F51EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		2E1ECD5514699D60008F51EE /* XLInAppPurchase-Info.plist */ = {isa = PBXFileReference; path = "XLInAppPurchase-Info.plist"; sourceTree = "<group>"; };
+		2E1ECD5514699D60008F51EE /* XLInAppPurchase-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XLInAppPurchase-Info.plist"; sourceTree = "<group>"; };
 		2E1ECD5714699D60008F51EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2E1ECD5914699D60008F51EE /* XLInAppPurchase-Prefix.pch */ = {isa = PBXFileReference; path = "XLInAppPurchase-Prefix.pch"; sourceTree = "<group>"; };
+		2E1ECD5914699D60008F51EE /* XLInAppPurchase-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XLInAppPurchase-Prefix.pch"; sourceTree = "<group>"; };
+		2E1ECD5F14699D6F008F51EE /* SKProduct+LocalizedPrice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKProduct+LocalizedPrice.h"; sourceTree = "<group>"; };
+		2E1ECD6014699D6F008F51EE /* SKProduct+LocalizedPrice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKProduct+LocalizedPrice.m"; sourceTree = "<group>"; };
+		2E1ECD6114699D6F008F51EE /* XLInAppPurchaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLInAppPurchaseManager.h; sourceTree = "<group>"; };
+		2E1ECD6214699D6F008F51EE /* XLInAppPurchaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLInAppPurchaseManager.m; sourceTree = "<group>"; };
+		2E1ECD6714699DAE008F51EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E1ECD6814699DAE008F51EE /* UIKit.framework in Frameworks */,
 				2E1ECD5214699D60008F51EE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,6 +62,7 @@
 		2E1ECD5014699D60008F51EE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2E1ECD6714699DAE008F51EE /* UIKit.framework */,
 				2E1ECD5114699D60008F51EE /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -59,6 +71,10 @@
 		2E1ECD5314699D60008F51EE /* XLInAppPurchase */ = {
 			isa = PBXGroup;
 			children = (
+				2E1ECD5F14699D6F008F51EE /* SKProduct+LocalizedPrice.h */,
+				2E1ECD6014699D6F008F51EE /* SKProduct+LocalizedPrice.m */,
+				2E1ECD6114699D6F008F51EE /* XLInAppPurchaseManager.h */,
+				2E1ECD6214699D6F008F51EE /* XLInAppPurchaseManager.m */,
 				2E1ECD5414699D60008F51EE /* Supporting Files */,
 			);
 			path = XLInAppPurchase;
@@ -81,6 +97,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E1ECD6314699D6F008F51EE /* SKProduct+LocalizedPrice.h in Headers */,
+				2E1ECD6514699D6F008F51EE /* XLInAppPurchaseManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +196,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E1ECD6414699D6F008F51EE /* SKProduct+LocalizedPrice.m in Sources */,
+				2E1ECD6614699D6F008F51EE /* XLInAppPurchaseManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,7 +219,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -213,7 +236,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -222,14 +245,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -238,6 +264,10 @@
 		2E1ECD5D14699D60008F51EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
@@ -253,6 +283,10 @@
 		2E1ECD5E14699D60008F51EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
@@ -284,6 +318,7 @@
 				2E1ECD5E14699D60008F51EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
